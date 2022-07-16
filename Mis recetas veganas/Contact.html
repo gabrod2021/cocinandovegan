@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./Imagenes/2738642.png" />
+    <script src="https://use.fontawesome.com/8240c85703.js"></script>
+    <link rel="stylesheet" href="Estilos/estilos.css" />
+  </head>
+  <body class="body">
+    <header class="containerfluido">
+      <div class="row">
+        <div class="col">
+          <h1 class="estilo-x">Cocinando Vegan</h1>
+        </div>
+      </div>
+
+      <nav class="nav navright">
+        <a href="./Index.html" class="indexboton">Home</a>
+        <a href="./Contact.html" class="contactboton">Contacto</a>
+        <a
+          href="./Acerca.html
+        "
+          class="aboutboton"
+          >Nosotros</a
+        >
+        <a href="./Registro.html" class="regboton">Registrarse</a>
+      </nav>
+    </header>
+
+    <main class="maderas">
+      <div class="h3contact">
+        <h3>
+          Los invitamos a completar el formulario de contacto y realizar la
+          la siguiente encuesta.<br />
+          Esto nos facilitaria conocer mejor sus preferencias y poder seguir
+          mejorando.
+        </h3>
+      </div>
+      <div class="containerfluido d-flex flex-wrap">
+      <div class="col-8 col-md-9 col-sm-12">
+        <form action="/show_data.html">
+          <div class="form-group formcontact">
+            <label for="nombre">Nombre:</label>
+            <input
+              type="text"
+              class="form-control  form-control form-control-sm" 
+              id="nombre"
+              placeholder="Ingrese nombre"
+              name="nombre"
+              size="30"
+              maxlength="30"
+              
+            />
+            <div class="form-group">
+              <label for="adress">Apellido:</label>
+              <input
+                type="text"
+                class="form-control form-control-sm"
+                id="adress"
+                placeholder="Ingrese apellido"
+                name="adress"
+                size="30"
+                maxlength="30"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                placeholder="@correo.com.ar"
+                class="form-control form-control-sm"
+                id="email"
+                placeholder="Ingrese mail"
+                name="email"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="tel">Telefono:</label>
+              <input
+                type="tel"
+                
+                class="form-control form-control-sm "
+                id="tel"
+                placeholder="Ingrese telefono o movil"
+                name="tel"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="ciudad">Ciudad:</label>
+              <input
+                type="text"
+                
+                class="form-control form-control-sm  "
+                id="ciudad"
+                value="CABA"
+                name="ciudad"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="edad">Edad:</label>
+              <input
+                type="number"
+                
+                class="form-control form-control-sm "
+                id="edad"
+                
+                name="edad"
+                maxlength="20"
+                
+              />
+            </div >
+            <div class="form-group">
+              <label for="fechanac">Fecha de nacimiento</label>
+              <input
+                type="date"
+                
+                class="form-control form-control-sm  "
+                id="fechanac"
+                
+                name="fechanac"
+                maxlength="30"
+                
+              />
+            </div>
+            <div>
+              <label for="sel1">Si lo prefiere,ingrese su genero:</label>
+              <select class="form-control form-control-sm  " id="sel1" name="sellist1">
+                <option>Femenino</option>
+                <option>Masculino</option>
+                <option>Otro</option>
+                
+              </select>
+            </div>
+            <br>
+            <hr class="encuesta">
+            <h3 class="encuesta">Encuesta</h3>
+            <hr>
+            <p class="encuesta">1-Que tipo de platos veganos son de su mayor agrado?</p>
+            <div class="form-check">
+               
+              <label class="form-check-label">
+                
+                <input type="checkbox" class="form-check-input" value="">Ensaladas
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Hamburguesas
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="" >Platos calientes
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Pastas
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="" >Postres
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="" >Helados
+              </label>
+            </div>
+            <hr>
+            <p class="encuesta">1-Cual de nuestros locales es el mas cercano a su domicilio?</p>
+            
+            <div class="form-check-inline">
+              <label class="form-check-label" for="radio1">
+                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Liniers
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label" for="radio2">
+                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Martinez
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" >Recoletta
+              </label>
+            </div>
+            <div class="form-group">
+              <hr>
+              <label for="comment">Comentarios y sugerencias:</label>
+            
+              <textarea class="form-control textarea" rows="5" id="comment" name="text" ></textarea>
+            </div><br>
+            <button type="submit" class="btn-outline-light" id="enviargreen">Enviar</button>
+            
+          </div>
+        </div>
+        </form>
+        
+      
+      <div class=" col-4 col-md-3 col-sm-12"> 
+        <br><br>  
+        <div class="hacheverde"><h3><b>Nuestros locales:</b></h3></div>
+        <br /><br /> 
+        
+        <a
+          href="https://goo.gl/maps/g6PLXsdrPztFjMEY9"
+          class="linkdirecciones"
+           >Entre Ríos 3204</a
+            ><br /><br />
+         <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.1467561438585!2d-58.539890985198994!3d-34.4991635594796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb063db925cc1%3A0x518359bcf49361bb!2sEntre%20R%C3%ADos%203204%2C%20B1640GCX%20Mart%C3%ADnez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1629245163587!5m2!1ses!2sar"
+          allowfullscreen=""
+          loading="lazy"
+          class="mapas"
+          id="uno"
+          ></iframe
+           ><br /><br />
+          
+         
+        <a
+          href="https://goo.gl/maps/TrTPasXP6vHNuoeF8 "
+          class="linkdirecciones"
+          >French 2478</a
+        >
+        <br /><br />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.540663349559!2d-58.40219148519572!3d-34.590487464304324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99810598d5%3A0x1ff6b7e98b52c32e!2sFrench%202478%2C%20C1125%20AAH%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1629664073380!5m2!1ses!2sar"
+          allowfullscreen=""
+          loading="lazy"
+          class="mapas"
+          id="dos"
+         
+        ></iframe>
+      
+      
+        <br /><br />
+        
+        <a
+          href="https://goo.gl/maps/U53kJ3qD8xnXjFFF6"
+          class="linkdirecciones"
+          >Murguiondo 660</a
+        ><br /><br />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.3599988285027!2d-58.51815178519378!3d-34.64561026722192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc84e22491ba3%3A0x1659c1cbafabb3d!2sMurguiondo%20660%2C%20C1408%20GYN%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1629664862501!5m2!1ses!2sar"
+          class="mapas"
+          allowfullscreen=""
+          loading="lazy"
+          id="tres"
+          
+        ></iframe>
+      </div>
+     </div>
+    </div>
+    <br><br>
+    </main>
+
+    <footer>
+      <br />
+      <nav class="navfooter">
+        <a href="https://www.facebook.com/" target="blank"
+          ><i class="fa fa-facebook-square fa-2x"></i
+        ></a>
+        <a href="https://www.instagram.com/" target="blank"
+          ><i class="fa fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/" target="blank"
+          ><i class="fa fa-twitter-square fa-2x"></i
+        ></a>
+      </nav>
+
+      <h5>Copyright © 2021.Todos los derechos reservados.</h5>
+
+      <br />
+    </footer>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    crossorigin="anonymous"
+  ></script>
+  </body>
+</html>

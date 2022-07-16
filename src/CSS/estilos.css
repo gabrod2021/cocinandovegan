@@ -1,0 +1,12 @@
+.nuevomodal{
+    overflow-x:scroll;
+    overflow-y:scroll ;
+}
+
+.contentModal{
+    border-radius: 7px;
+}
+
+#recetacolor{
+    background-color: coral;
+}
